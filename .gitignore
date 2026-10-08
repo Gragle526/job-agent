@@ -1,0 +1,35 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+.coverage*
+htmlcov/
+
+# Credentials, profiles, real job data and execution artifacts
+.env
+.env.*
+!.env.example
+workspace/
+*.sqlite*
+*.db
+*.db-*
+*.log
+secrets/
+browser-profile*/
+reports/private/
+
+# Editor / OS files and backup archives
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*.tar.gz
+*.zip
